@@ -26,21 +26,21 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAa-hH-Pvr">
-                                                        <rect key="frame" x="0.0" y="10" width="414" height="128"/>
+                                                        <rect key="frame" x="20" y="0.0" width="374" height="138"/>
                                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
+                                                        <size key="shadowOffset" width="1" height="-1"/>
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="GAa-hH-Pvr" firstAttribute="top" secondItem="G3o-sP-ZXV" secondAttribute="top" constant="10" id="YhE-od-PIN"/>
+                                                    <constraint firstItem="GAa-hH-Pvr" firstAttribute="leading" secondItem="G3o-sP-ZXV" secondAttribute="leading" constant="20" id="5nQ-IG-ZKl"/>
+                                                    <constraint firstAttribute="trailing" secondItem="GAa-hH-Pvr" secondAttribute="trailing" constant="20" id="STz-nO-d9r"/>
                                                     <constraint firstAttribute="bottom" secondItem="GAa-hH-Pvr" secondAttribute="bottom" id="a38-JJ-dFj"/>
-                                                    <constraint firstItem="GAa-hH-Pvr" firstAttribute="top" secondItem="G3o-sP-ZXV" secondAttribute="top" constant="10" id="j05-Wc-SR9"/>
-                                                    <constraint firstAttribute="trailing" secondItem="GAa-hH-Pvr" secondAttribute="trailing" id="krZ-Zw-zJ3"/>
+                                                    <constraint firstItem="GAa-hH-Pvr" firstAttribute="top" secondItem="G3o-sP-ZXV" secondAttribute="top" id="dCl-Sn-Cea"/>
                                                     <constraint firstAttribute="bottom" secondItem="GAa-hH-Pvr" secondAttribute="bottom" id="oiE-BT-l8k"/>
-                                                    <constraint firstItem="GAa-hH-Pvr" firstAttribute="leading" secondItem="G3o-sP-ZXV" secondAttribute="leading" id="pnd-Cs-XdM"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
